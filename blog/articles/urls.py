@@ -1,6 +1,5 @@
 from django.urls import path
-from articles.views import ArticleDetailView
-from articles.views import ArticleListView
+from blog.templates.articles import ArticleDetailView, ArticleListView
 
 urlpatterns = [
     path('', ArticleListView.as_view(), name='articles'),
