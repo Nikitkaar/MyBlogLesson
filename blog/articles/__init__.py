@@ -1,1 +1,0 @@
-from blog.templates.articles import Article
