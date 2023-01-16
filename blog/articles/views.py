@@ -1,7 +1,7 @@
 from django.utils import timezone
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
-from blog.templates.articles import Article
+from articles.models import Article
 
 
 class ArticleListView(ListView):
